@@ -72,19 +72,16 @@ export default {
       searchText: null,
       menuTree: [
         {
-          id: 0,
           name: 'Engine',
           link: 'akarmi',
           open: false,
           children: [
             {
-              id: 1,
               name: 'Filters',
               link: 'akarmi',
               open: false,
               children: [
                 {
-                  id: 2,
                   name: 'Exhaust',
                   link: 'akarmi',
                   open: false,
@@ -92,13 +89,11 @@ export default {
                 },
 
                 {
-                  id: 3,
                   name: 'Air filters',
                   link: 'akarmi',
                   open: false,
                   children: [
                     {
-                      id: 4,
                       name: 'Paper air filter',
                       link: 'akarmi',
                       open: false,
@@ -107,14 +102,12 @@ export default {
                   ],
                 },
                 {
-                  id: 5,
                   name: 'Catalisator',
                   link: 'akarmi',
                   open: false,
                   children: [],
                 },
                 {
-                  id: 6,
                   name: 'Sub-particle filter',
                   link: 'akarmi',
                   open: false,
@@ -124,14 +117,12 @@ export default {
               ],
             },
             {
-              id: 7,
               name: 'Spark plugs',
               link: 'akarmi',
               open: false,
               children: [],
             },
             {
-              id: 8,
               name: 'Cylinders',
               link: 'akarmi',
               open: false,
@@ -141,48 +132,41 @@ export default {
           ],
         },
         {
-          id: 9,
           name: 'Brakes',
           link: 'akarmi',
           open: false,
           children: [],
         },
         {
-          id: 10,
           name: 'Chassis',
           link: 'akarmi',
           open: false,
           children: [
             {
-              id: 11,
               name: 'Front windscreen',
               link: 'akarmi',
               open: false,
               children: [],
             },
             {
-              id: 12,
               name: 'Rear windscreen',
               link: 'akarmi',
               open: false,
               children: [],
             },
             {
-              id: 13,
               name: 'Left door',
               link: 'akarmi',
               open: false,
               children: [],
             },
             {
-              id: 14,
               name: 'Right door',
               link: 'akarmi',
               open: false,
               children: [],
             },
             {
-              id: 14,
               name: 'Right Paper',
               link: 'akarmi',
               open: false,
@@ -192,14 +176,12 @@ export default {
           ],
         },
         {
-          id: 15,
           name: 'Interior',
           link: 'akarmi',
           open: false,
           children: [],
         },
         {
-          id: 16,
           name: 'Rear-view mirrors',
           link: 'akarmi',
           open: false,

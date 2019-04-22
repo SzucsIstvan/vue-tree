@@ -36,7 +36,7 @@ export default {
     },
     isOpen() {
       if (this.itemValue.open) {
-        this.$emit("opened", this.index, this.itemValue.id);
+        this.$emit("opened", this.index, this.itemValue.link);
       }
       return this.itemValue.open;
     },
@@ -62,7 +62,7 @@ export default {
     textFilter() {
       if (typeof this.searchText != "undefined" && this.searchText) {
         if (this.itemValue.name.toLocaleLowerCase().indexOf(this.searchText.toLocaleLowerCase()) != -1) {
-          this.$emit("opened", this.index, this.itemValue.id);
+          this.$emit("opened", this.index, this.itemValue.link);
           return true;
         }
       }
